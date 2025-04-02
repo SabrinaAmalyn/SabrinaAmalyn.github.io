@@ -46,6 +46,7 @@ h3 {
     color: transparent; /* Makes the text transparent */
     -webkit-text-stroke: 0.1875rem black; /* 3px => 3/16 = 0.1875rem */
     white-space: nowrap;
+    letter-spacing: 3px;
 }
 
 .regular {
