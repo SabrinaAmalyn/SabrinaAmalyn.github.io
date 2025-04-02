@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 * {
     padding: 0;
@@ -16,7 +17,7 @@ html {
 }
 
 body {
-    font-family: 'Inter', "Segoe UI", sans-serif;
+    font-family: 'Poppins','Inter', "Segoe UI", sans-serif;
 }
 
 /* ---------------------------------------------------------------------------- */
@@ -158,6 +159,11 @@ nav ul.active li .button {
 /* Section Styling */
 /* ---------------------------------------------------------------------------- */
 
+section {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
 /* Check for background color and adjust text accordingly */
 section:nth-child(odd) {
     background-color: black;
@@ -190,7 +196,6 @@ section:nth-child(even) p {
     display: flex;
     flex-direction: column; /* Stack by default (for mobile) */
     width: 100%;
-    min-height: 100vh;
     margin-left: auto;
     margin-right: auto;
     padding: 2rem 1.5rem;
@@ -202,7 +207,6 @@ section:nth-child(even) p {
     flex: 1; /* Both take equal space */
     max-width: 100%;
     padding: 1rem;
-    height: 100vh;
 }
 
 .container .text {
@@ -284,7 +288,6 @@ section:nth-child(even) p {
     margin-bottom: 20px;
 }
 
-
 /* ---------------------------------------------------------------------------- */
 /* Skills Section */
 /* ---------------------------------------------------------------------------- */
@@ -350,6 +353,11 @@ section:nth-child(even) p {
     font-size: 48px;
     font-weight: 800;
     margin-bottom: 20px;
+}
+
+#projects h1 {
+    text-align: center;
+    margin: 20px 0px;
 }
 
 #projects h2 {
