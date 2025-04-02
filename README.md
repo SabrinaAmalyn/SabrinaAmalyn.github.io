@@ -1,6 +1,6 @@
 # 📓 Notion-Inspired-Portfolio
 
-Link: SabrinaAmalyn.github.io
+Visit my portfolio: [SabrinaAmalyn.github.io](https://SabrinaAmalyn.github.io)
 
 This is my personal portfolio website, designed and developed using HTML & CSS, inspired by Notion’s sleek and organized aesthetic. I built this space to showcase my journey in software development, my projects, and the skills I’ve gained along the way. The minimalist black-and-white design is intentional— as I want my projects to take center stage and speak for themselves.
 
